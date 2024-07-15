@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true,
-  }
+  },
+  base: '/node_fs97_front_Marharyta23',
 });
