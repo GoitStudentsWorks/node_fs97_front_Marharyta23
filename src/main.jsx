@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <HelmetProvider>
         <Provider store={store}>
             <PersistGate persistor={persistor} loading={null}>
-                <BrowserRouter>
+                <BrowserRouter basename='/node_fs97_front_Marharyta23'>
                     <App />
                 </BrowserRouter>
             </PersistGate>
